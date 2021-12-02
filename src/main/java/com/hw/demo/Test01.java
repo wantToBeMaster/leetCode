@@ -1,5 +1,7 @@
 package com.hw.demo;
 
+import java.util.PriorityQueue;
+
 /**
  * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
  *
@@ -45,10 +47,25 @@ public class Test01 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {3,3};
-        int target = 6;
-        int[] ints = twoSum(nums, target);
-        System.out.println(ints[0]);
-        System.out.println(ints[1]);
+//        int[] nums = {3,3};
+//        int target = 6;
+//        int[] ints = twoSum(nums, target);
+//        System.out.println(ints[0]);
+//        System.out.println(ints[1]);
+
+        PriorityQueue<int[]> q = new PriorityQueue<>((a,b)->Double.compare(b[0]*1.0/b[1],a[0]*1.0/a[1]));
+
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Integer::compare);
+        queue.add(5);
+        queue.add(2);
+        queue.add(1);
+        queue.add(3);
+        queue.add(4);
+        Object[] objects = queue.toArray();
+        for (Object o : objects) {
+            System.out.println(o);
+        }
+        System.out.println(queue.poll());
+
     }
 }
