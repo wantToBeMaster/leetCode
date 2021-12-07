@@ -1,4 +1,4 @@
-package com.hw.demo;
+package com.hw.solution;
 
 /**
  * 给定一个整数数组 prices ，它的第 i 个元素 prices[i] 是一支给定的股票在第 i 天的价格。

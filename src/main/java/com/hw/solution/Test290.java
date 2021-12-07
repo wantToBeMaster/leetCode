@@ -1,6 +1,5 @@
-package com.hw.demo;
+package com.hw.solution;
 
-import java.util.Collection;
 import java.util.HashMap;
 
 /**

@@ -1,6 +1,4 @@
-package com.hw.demo;
-
-import java.util.ArrayList;
+package com.hw.solution;
 
 import static java.lang.Math.max;
 

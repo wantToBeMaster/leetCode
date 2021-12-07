@@ -1,4 +1,4 @@
-package com.hw.demo;
+package com.hw.solution;
 
 /**
  * 给定两个字符串 s 和 t，它们只包含小写字母。

@@ -1,8 +1,6 @@
-package com.hw.demo;
+package com.hw.solution;
 
-import java.util.Collection;
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."

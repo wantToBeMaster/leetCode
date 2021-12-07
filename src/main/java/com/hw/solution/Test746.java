@@ -1,4 +1,4 @@
-package com.hw.demo;
+package com.hw.solution;
 
 /**
  * Created by huwei on 2020/12/21.

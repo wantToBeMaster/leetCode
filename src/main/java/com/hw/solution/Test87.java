@@ -1,4 +1,4 @@
-package com.hw.demo;
+package com.hw.solution;
 
 /**
  * 扰乱字符串
